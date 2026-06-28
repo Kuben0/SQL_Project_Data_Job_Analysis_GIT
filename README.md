@@ -40,7 +40,7 @@ ORDER BY
     date DESC
 LIMIT 10
 ```
-![Newest job postings in Kraków](assets\1_top_paying_jobs.png)<br>
+![](assets\1_top_paying_jobs.png)<br>
 *Bar chart showing the five most recent data analyst job postings in Kraków; ChatGPT generated this graph from my SQL query results.*
 ### 2. Highest-paying remote analyst jobs and required skills
 First identifies the 10 highest-paying remote analyst jobs and stores them in a CTE. It then joins those jobs with the skills tables to show which technologies are required for each role. As a result, it highlights both the best-paid remote positions and the skills associated with them.
