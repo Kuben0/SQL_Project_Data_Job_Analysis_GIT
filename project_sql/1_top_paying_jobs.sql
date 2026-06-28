@@ -19,7 +19,7 @@ FROM
     LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE
     job_title_short ILIKE '%Analyst%'
-    AND job_location LIKE '%Kraków%'
+    AND job_location ILIKE '%Kraków%'
     AND salary_year_avg IS NOT NULL
 ORDER BY
     date DESC
