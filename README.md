@@ -40,7 +40,7 @@ ORDER BY
     date DESC
 LIMIT 10
 ```
-![](assets\1_top_paying_jobs.png)
+![Newest job postings in Kraków](assets/1_top_paying_jobs.png)<br>
 *Bar chart showing the five most recent data analyst job postings in Kraków; ChatGPT generated this graph from my SQL query results.*
 ### 2. Highest-paying remote analyst jobs and required skills
 First identifies the 10 highest-paying remote analyst jobs and stores them in a CTE. It then joins those jobs with the skills tables to show which technologies are required for each role. As a result, it highlights both the best-paid remote positions and the skills associated with them.
@@ -74,7 +74,7 @@ ORDER BY
     salary_year_avg DESC
 ```
 
-![Highest-paying remote analyst jobs and required skills](assets\2_top_paying_job_skills_remote.png)<br>
+![Highest-paying remote analyst jobs and required skills](assets/2_top_paying_job_skills_remote.png)<br>
 *Bar graph visualizing the highest-paying remote analyst jobs and required skills; ChatGPT generated this graph from my SQL query results.*
 ### 3. Most in-demand skills for Data Analysts in Poland
 Finds the most frequently required skills in Data Analyst job postings in Poland. It counts how many times each skill appears across the dataset and sorts the results from the most in-demand to the least. The output is limited to the top 5 skills.
@@ -178,7 +178,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![Most in-demand and highest-paying skills for Data Analysts in Poland](assets\5_optimal_skills.png)<br>
+![Most in-demand and highest-paying skills for Data Analysts in Poland](assets/5_optimal_skills.png)<br>
 *Bar chart illustrating the most in-demand and highest-paying skills among data analysts in Poland; ChatGPT generated this graph from my SQL query results.*<br><br>
 The findings show that SQL remains the core skill for Data Analysts, while Python and Tableau are also highly valued. Technologies related to cloud computing and big data, such as AWS, Azure, and Hadoop, tend to be associated with higher salaries, suggesting that employers increasingly value advanced technical skills alongside traditional analytics expertise.
 # What I Learned
